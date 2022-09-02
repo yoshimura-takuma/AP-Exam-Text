@@ -16,13 +16,13 @@ main{
 .content{
     flex: 1;
     background-color: #eee;
-    text-align: center;
+    text-align: start;
     margin-left: 10px;
 }
 
 .localNavigation{
     width: 300px;
-    text-align: center;
+    text-align: start;
     background-color: rgb(35, 21, 65);
     color: #fff;
 }
