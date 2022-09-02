@@ -1,0 +1,14 @@
+.btn {
+    cursor: pointer;
+}
+.content{
+    background-color:rgb(49, 45, 34);
+    width:150px;
+    display: none;
+}
+
+.content .open{
+    background-color:rgb(49, 45, 34);
+    width:150px;
+    display: block;
+}
