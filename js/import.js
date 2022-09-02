@@ -1,6 +1,6 @@
 function header(){
     $.ajax({
-        url: "./html/header.html",
+        url: "../html/header.html",
         cache: false,
         success: function(html){
             document.write(html);
@@ -10,7 +10,7 @@ function header(){
 
 function localNavigation(){
     $.ajax({
-        url: "./html/localNavigation.html",
+        url: "../html/localNavigation.html",
         cache: false,
         success: function(html){
             document.write(html);
