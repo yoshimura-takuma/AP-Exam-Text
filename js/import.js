@@ -1,6 +1,6 @@
 function header(){
     $.ajax({
-        url: "/yoshimura-takuma/AP-Exam-Text/html/header.html",
+        url: "https://yoshimura-takuma.github.io/AP-Exam-Text/html/header.html",
         cache: false,
         success: function(html){
             document.write(html);
@@ -10,7 +10,7 @@ function header(){
 
 function localNavigation(){
     $.ajax({
-        url: "/yoshimura-takuma/AP-Exam-Text/html/localNavigation.html",
+        url: "https://yoshimura-takuma.github.io/AP-Exam-Text/html/localNavigation.html",
         cache: false,
         success: function(html){
             document.write(html);
