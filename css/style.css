@@ -5,7 +5,7 @@ body{
 .grovalNavigation{
     height: 70px;
     text-align: center;
-    background-color: #888;
+    background-color: rgb(54, 43, 119);
     color: #fff;
 }
 main{
@@ -23,6 +23,6 @@ main{
 .localNavigation{
     width: 300px;
     text-align: center;
-    background-color: #888;
+    background-color: rgb(35, 21, 65);
     color: #fff;
 }
