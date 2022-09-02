@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-size: 20px;
+}
+#main  {
+  background-color: rgb(206, 36, 36);
+  height: 100%;  /* 高さ */
+  float: right;  /* 回り込み */
+  position: relative;
+  padding-right: 100%;
+
+  font-size: 20px;
+  color: brown;
+
+}
+#left {
+  position: absolute;
+  padding-top:100%;
+  background-color: rgb(35, 21, 65);
+  height:100%;
+  width: 18%; /* 幅 */
+  float: left;  /* 回り込み */
+
+  font-size: 20px;
+  color: brown;
+}
