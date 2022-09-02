@@ -3,7 +3,7 @@ function header(){
         url: "/AP-Exam-Text/html/header.html",
         cache: false,
         success: function(html){
-            document.write(html);
+            $("body").prepend(html);
         }
     });
 }
@@ -13,7 +13,7 @@ function localNavigation(){
         url: "/AP-Exam-Text/html/localNavigation.html",
         cache: false,
         success: function(html){
-            document.write(html);
+            $("#localNavigation").prepend(html);
         }
     });
 }
