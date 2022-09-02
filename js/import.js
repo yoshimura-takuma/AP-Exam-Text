@@ -7,3 +7,13 @@ function header(){
         }
     });
 }
+
+function localNavigation(){
+    $.ajax({
+        url: "./html/localNavigation.html",
+        cache: false,
+        success: function(html){
+            document.write(html);
+        }
+    });
+}
